@@ -1,0 +1,17 @@
+.button_banner_Main{
+    width: 100px ;
+    height: 40px ;
+    
+    border-radius:30px;
+    background-color: #081b30;
+    color: white;
+}
+
+.button_banner_Main:hover{
+    background-color: white;
+    color: #081b30;
+}
+
+.card-product:hover{
+    box-shadow: 10px 20px black;
+}
