@@ -15,3 +15,7 @@
 .card-product:hover{
     box-shadow: 10px 20px black;
 }
+
+.card-product-destaque{
+    box-shadow: 20px 40PX black;
+}

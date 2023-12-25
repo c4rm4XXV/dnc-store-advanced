@@ -1,6 +1,18 @@
 /*---------------------------------------------------------------------
     File Name: custom.js
 ---------------------------------------------------------------------*/
+/*--------------------------------DESTAQUE DE CARD---------------------*/
+function alternarDestaque()
+{
+	var cards = document.getElementsByClassName("sport_product");
+	cards = Array.from(cards);
+
+	for(let i = 0;i < cards.length;i++){
+		cards[i].classList.toggle("card-product-destaque");
+	}
+}
+setInterval(alternarDestaque,1500)
+/*--------------------------------DESTAQUE DE CARD END---------------------*/
 
 $(function () {
 
